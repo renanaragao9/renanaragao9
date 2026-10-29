@@ -1,0 +1,97 @@
+%% Currículo - Renan Aragão (foco em clientes e projetos)
+%% Compilar: pdflatex curriculo.tex
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm,top=1.2cm,bottom=1.1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{accent}{HTML}{1F6FEB}
+\definecolor{muted}{HTML}{57606A}
+\renewcommand{\familydefault}{\sfdefault}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{\MakeUppercase}[{\color{accent}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\setlist[itemize]{leftmargin=1.1em,itemsep=1pt,topsep=2pt,parsep=0pt}
+
+\newcommand{\job}[3]{\textbf{#1} \hfill {\color{muted}\small #3}\\{\color{muted}#2}\par\vspace{-2pt}}
+\newcommand{\link}[2]{\href{#1}{\color{accent}#2}}
+
+\begin{document}
+\fontsize{9.5}{11.4}\selectfont
+
+{\Huge\bfseries Renan Aragão}\\[3pt]
+{\large\color{accent}\bfseries Desenvolvedor Full-Stack · Web com PHP e Laravel · IA com Python}\\[3pt]
+{\small\color{muted} Fortaleza, CE · presencial, híbrido ou remoto}\\[1pt]
+{\small \link{https://renanaragao9.github.io/renanaragao9}{Portfólio} \quad
+\link{https://linkedin.com/in/renan-aragao/}{LinkedIn} \quad
+\link{https://github.com/renanaragao9}{GitHub} \quad
+\link{https://seuracha.aragaolabs.com.br}{SeuRacha} \quad
+\link{https://focimor.aragaolabs.com.br}{Focimor}}
+
+\section{O que eu faço por você}
+Desenvolvedor com mais de 3 anos entregando software que roda em produção. Conecto sistemas web tradicionais a automações e IA aplicada, para tirar trabalho manual da operação e acelerar a tomada de decisão.
+\begin{itemize}
+  \item \textbf{Sistemas web sob medida:} back-end em Laravel (APIs limpas, filas, painéis administrativos) e front-end em Vue 3, Nuxt ou Next.js, do banco de dados ao deploy.
+  \item \textbf{Automação com Python:} rotinas que substituem processos manuais repetitivos, como faturamento e leitura de documentos.
+  \item \textbf{IA aplicada ao negócio:} OCR, classificação de documentos, chatbots com LLM e RAG sobre a base da própria empresa.
+  \item \textbf{Integração de sistemas:} APIs REST de terceiros, OAuth/JWT, microsserviços.
+  \item \textbf{Modernização de legado:} migração gradual de sistemas antigos para Laravel e Vue, sem parar a operação.
+\end{itemize}
+
+\section{Resultados}
+\begin{itemize}
+  \item \textbf{Centenas de horas poupadas} da equipe de auditoria com um agente em Python que lê, extrai e classifica documentos (Tesseract OCR, spaCy e Transformers).
+  \item \textbf{Faturamento de 15 mil associados automatizado} com script Python de geração de boletos, eliminando erro humano e dias de trabalho manual.
+  \item \textbf{Chatbot com LLM} sobre a base da empresa: busca de dados de projetos críticos virou resposta instantânea.
+  \item \textbf{Migração de CakePHP para Laravel + Vue} conduzida tecnicamente, reduzindo débito técnico histórico.
+  \item \textbf{6+ sistemas web} para o setor de energia com participação técnica.
+\end{itemize}
+
+\section{Projetos em produção}
+\begin{itemize}
+  \item \textbf{\link{https://seuracha.aragaolabs.com.br}{SeuRacha}} (projeto pessoal): plataforma de esporte amador. Jogadores encontram rachas, reservam quadras e disputam torneios; arenas gerenciam agenda, mensalistas, estoque e comandas. \emph{Laravel 13, Filament, Next.js, TypeScript.}
+  \item \textbf{\link{https://focimor.aragaolabs.com.br}{Focimor}} (projeto pessoal): adoção de pets no estilo ``tinder'', com swipe, match com ONGs, chat e painel administrativo. \emph{Laravel 13, Filament, Next.js, TypeScript.}
+  \item \textbf{\link{https://pontoalvo.cloud}{Sistema de ponto e RH}} (freelance, colaboração): ponto com app mobile, KPIs, recrutamento e folha, com recursos de IA; usado por 30+ empresas. \emph{Python, Flask, Nuxt.}
+\end{itemize}
+
+\section{Experiência}
+\job{Desenvolvedor Full-Stack · 3e Soluções}{Fortaleza, CE · híbrido · energia e eficiência energética}{nov/2024 – atual}
+\begin{itemize}
+  \item Laravel (Service Pattern, Form Requests, Resources, Sanctum/Passport, Nova) e Vue 3 (Composition API, Pinia, Vue Router).
+  \item Agente de OCR e classificação de documentos e chatbot com LLM, em Python (FastAPI, HuggingFace, OpenRouter).
+  \item Deploy serverless com Laravel Vapor e AWS (S3, CloudFront, SES); Kafka, Kong e Docker.
+  \item MySQL para a web e MongoDB/Firebase para aplicativos Flutter.
+\end{itemize}
+\job{Desenvolvedor Full-Stack · CABEMCE}{Fortaleza, CE · instituição com mais de 15 mil associados}{ago/2023 – out/2024}
+\begin{itemize}
+  \item Liderança técnica da sustentação de sistemas em CakePHP e da migração para Laravel + Vue.js.
+  \item ERP interno com cadastro de dependentes, histórico de assistência e permissões; base PostgreSQL com 15 mil associados.
+  \item APIs REST com OAuth e JWT; equipe ágil com Kanban e Gitflow.
+\end{itemize}
+\job{Estagiário de TI · Tribunal Regional do Trabalho da 7ª Região}{Fortaleza, CE}{jun/2022 – ago/2023}
+\begin{itemize}
+  \item Suporte N1 a N3, queries e diagnósticos em Oracle, e redução de falsos bugs escalados ao time de desenvolvimento por análise de causa-raiz.
+\end{itemize}
+
+\section{Tecnologias}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{PHP} & PHP 8, Laravel (Vapor, Queues, Nova, Filament, Sanctum, Passport), CakePHP \\
+\textbf{Python e IA} & FastAPI, Flask, HuggingFace, PyTorch, spaCy, Tesseract OCR, RAG, LLMs (OpenAI, OpenRouter) \\
+\textbf{Front-end} & Vue 3, Pinia, Nuxt, React, Next.js, TypeScript, Tailwind CSS \\
+\textbf{Dados e infra} & PostgreSQL, MySQL, MongoDB, Firebase, Redis, Oracle, Docker, AWS, Kafka, Kong \\
+\textbf{Qualidade} & PHPUnit, pytest, Git/Gitflow, Scrum, Kanban \\
+\end{tabularx}
+
+\section{Formação}
+\textbf{Bacharelado em Ciência da Computação} · Faculdade Multiversa, Fortaleza/CE \hfill {\color{muted}\small 2020 – 2024}
+
+\end{document}
