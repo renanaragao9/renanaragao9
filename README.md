@@ -19,11 +19,6 @@
   <a href="https://renanaragao9.github.io/renanaragao9/public/download/curriculo-renan-aragao.pdf"><img src="https://img.shields.io/badge/Currículo-PDF-1F6FEB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Currículo em PDF"></a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=renanaragao9&label=Visitas&color=1f6feb&style=flat-square" alt="Visitas">
-  <img src="https://img.shields.io/github/followers/renanaragao9?style=flat-square&logo=github" alt="Seguidores">
-</p>
-
 ---
 
 ## Sobre mim
@@ -98,21 +93,15 @@ Fora do expediente, mantenho dois sistemas próprios no ar (SeuRacha e Focimor) 
 
 ## Outros projetos
 
-<p align="center">
-  <a href="https://github.com/renanaragao9/projetoEvento"><img src="https://github-readme-stats.vercel.app/api/pin/?username=renanaragao9&repo=projetoEvento&hide_border=true&theme=transparent" alt="projetoEvento"></a>
-  <a href="https://github.com/renanaragao9/AdonisJs-Angular-Api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=renanaragao9&repo=AdonisJs-Angular-Api&hide_border=true&theme=transparent" alt="AdonisJs-Angular-Api"></a>
-</p>
+- [**FreeEvents**](https://github.com/renanaragao9/projetoEvento): criação e participação em eventos públicos ou privados, com aprovação de participantes, endereço por CEP e galeria de fotos. PHP · Laravel · MySQL
+- [**AdonisJs-Angular-Api**](https://github.com/renanaragao9/AdonisJs-Angular-Api): API REST em AdonisJS 6 para publicações com imagem e comentários, com upload validado e testes, consumida por front-end Angular. TypeScript · AdonisJS · Angular
 
 ---
 
-## Estatísticas
+## Linguagens mais usadas
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=renanaragao9&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="Estatísticas do GitHub">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=renanaragao9&layout=compact&hide_border=true&theme=transparent" alt="Linguagens mais usadas">
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=renanaragao9&hide_border=true&background=00000000" alt="Sequência de contribuições">
 </p>
 
 <p align="center">
