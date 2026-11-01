@@ -25,7 +25,7 @@
 
 Tenho mais de três anos de experiência como desenvolvedor full-stack. Trabalho principalmente com **PHP e Laravel** no back-end e **Vue** no front-end, incluindo microsserviços e integrações entre sistemas. Também uso **Python** para automações e para integrar modelos de linguagem e OCR a sistemas existentes.
 
-Hoje desenvolvo sistemas para o setor de energia na **3e Soluções**. Antes, no **CABEMCE**, conduzi a migração de sistemas em CakePHP para Laravel.
+Hoje desenvolvo sistemas para o setor de energia na **3e Soluções**. Antes, no **CABEMCE**, participei do desenvolvimento de soluções internas e automações para uma base de mais de 15 mil associados.
 
 Fora do expediente, mantenho dois sistemas próprios em produção: SeuRacha e Focimor. Em uma colaboração freelancer anterior, participei do desenvolvimento de um sistema de ponto e RH. Uso o Claude Code no dia a dia e tenho PHPUnit e pytest como rotina de testes.
 
@@ -79,10 +79,10 @@ Fora do expediente, mantenho dois sistemas próprios em produção: SeuRacha e F
 - APIs REST de terceiros conectadas a sistemas internos de métricas, análise de dados e custos.
 
 **Desenvolvedor Full-Stack · CABEMCE** · ago/2023 – out/2024
-- Liderança técnica na migração gradual de CakePHP para Laravel e Vue.
-- Script em Python que gera os boletos de cerca de 15 mil associados.
-- ERP interno (CakePHP e AdminLTE) com cadastro de dependentes, histórico de assistência e permissões.
-- Integração de sistemas por APIs REST com OAuth e JWT; equipe ágil com Kanban e Gitflow.
+- Participei do desenvolvimento de funcionalidades para um ERP interno, incluindo cadastro de dependentes, histórico de assistência e permissões.
+- Script em Python que gerava boletos para cerca de 15 mil associados.
+- Integração de sistemas por APIs REST com OAuth e JWT, com Kanban e Gitflow no fluxo de entrega.
+- Soluções voltadas à operação de uma instituição com mais de 15 mil associados.
 
 **Estagiário de TI · Tribunal Regional do Trabalho da 7ª Região** · jun/2022 – ago/2023
 - Suporte N1 a N3 a magistrados, servidores e advogados, consultas em Oracle e análise de causa raiz que reduziu chamados indevidos escalados ao time de desenvolvimento.
