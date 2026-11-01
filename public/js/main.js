@@ -1,5 +1,5 @@
 // digitação em loop
-const words = ["PHP / Laravel", "Python / FastAPI", "Vue 3", "IA aplicada"];
+const words = ["PHP / Laravel", "Vue / Nuxt", "Microserviços", "Python / FastAPI", "IA aplicada"];
 const el = document.getElementById("typed");
 let w = 0, i = 0, del = false;
 (function type() {

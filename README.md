@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">Renan Aragão</h1>
-<h3 align="center">Desenvolvedor Full-Stack · Fortaleza, CE</h3>
+<h3 align="center">Desenvolvedor Full-Stack · Laravel, Vue, microserviços e IA aplicada · Fortaleza, CE</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,python,fastapi,vue,nextjs&perline=6" alt="PHP, Laravel, Python, FastAPI, Vue, Next.js">
@@ -23,15 +23,15 @@
 
 ## Sobre mim
 
-Tenho mais de três anos de experiência como desenvolvedor full-stack. Trabalho principalmente com **PHP e Laravel** no back-end e **Vue** no front-end, e uso **Python** para automações e para ligar modelos de linguagem e OCR a sistemas que já existem.
+Tenho mais de três anos de experiência como desenvolvedor full-stack. Trabalho principalmente com **PHP e Laravel** no back-end e **Vue** no front-end, incluindo microsserviços e integrações entre sistemas. Também uso **Python** para automações e para integrar modelos de linguagem e OCR a sistemas existentes.
 
 Hoje desenvolvo sistemas para o setor de energia na **3e Soluções**. Antes, no **CABEMCE**, conduzi a migração de sistemas em CakePHP para Laravel.
 
-Fora do expediente, mantenho dois sistemas próprios no ar (SeuRacha e Focimor) e colaboro como freelancer em um sistema de ponto e RH. Uso o Claude Code no dia a dia para programar, e tenho PHPUnit e pytest como rotina de testes.
+Fora do expediente, mantenho dois sistemas próprios em produção: SeuRacha e Focimor. Em uma colaboração freelancer anterior, participei do desenvolvimento de um sistema de ponto e RH. Uso o Claude Code no dia a dia e tenho PHPUnit e pytest como rotina de testes.
 
 **Como eu trabalho:** rendo mais com escopo e critério de pronto claros. Gosto de alinhar a abordagem com o time antes de escrever código, falo direto e resolvo rápido.
 
-**Procuro:** vagas de desenvolvedor full-stack em Fortaleza (presencial ou híbrido) ou remotas, com foco em Laravel, Vue/Nuxt e IA aplicada. Também aceito projetos como freelancer.
+**Procuro:** vagas de desenvolvedor full-stack em Fortaleza (presencial ou híbrido) ou remotas, com foco em Laravel, Vue/Nuxt, microserviços e IA aplicada. Também aceito projetos freelancer.
 
 ---
 
@@ -65,7 +65,7 @@ Fora do expediente, mantenho dois sistemas próprios no ar (SeuRacha e Focimor) 
 |---|---|---|
 | [**SeuRacha**](https://seuracha.aragaolabs.com.br) | Plataforma de esporte amador: rachas, reserva de quadras, torneios e gestão de arenas. Projeto pessoal, com cerca de 50 usuários | Laravel 13 · Filament · Next.js · TypeScript |
 | [**Focimor**](https://focimor.aragaolabs.com.br) | Adoção de pets estilo "tinder": swipe, match com ONGs e chat. Projeto pessoal | Laravel 13 · Filament · Next.js · TypeScript |
-| [**Pontoalvo**](https://pontoalvo.cloud) | Sistema de ponto e RH usado por 30+ empresas. Colaborei no desenvolvimento, como freelancer | Python · Flask · Nuxt |
+| **Sistema de ponto e RH** | Colaboração freelancer anterior em um produto usado por mais de 30 empresas | Python · Flask · Nuxt |
 
 ---
 
